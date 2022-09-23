@@ -24,6 +24,7 @@ public class Member
     public boolean equals(Object obj)
     {
         Member m = (Member)obj;
+        int a = 0;
         return this.fullName.equals(m.fullName) && this.age == m.age && this.photoUrl.equals(m.photoUrl);
     }
 }
